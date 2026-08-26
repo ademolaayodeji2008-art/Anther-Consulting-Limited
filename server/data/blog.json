@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "slug": "understanding-tax-obligations-for-smes-in-nigeria",
+    "title": "Understanding Tax Obligations for SMEs in Nigeria",
+    "category": "Tax",
+    "excerpt": "Many small and medium-sized enterprises in Nigeria unknowingly leave themselves exposed to penalties by misunderstanding their core tax obligations. Here is what every business owner needs to know.",
+    "content": "Many small and medium-sized enterprises (SMEs) in Nigeria unknowingly leave themselves exposed to penalties by misunderstanding their core tax obligations. The Federal Inland Revenue Service (FIRS) and various State Internal Revenue Services (SIRS) administer a range of taxes that affect businesses of all sizes.\n\n**Company Income Tax (CIT)**\nEvery company registered in Nigeria is required to file an annual CIT return. Small companies (with turnover below ₦25 million) currently enjoy a 0% CIT rate, medium companies (₦25m–₦100m) pay 20%, and large companies pay 30%. Filing on time avoids late-filing penalties.\n\n**Value Added Tax (VAT)**\nBusinesses with an annual turnover above ₦25 million are required to register for VAT, charge 7.5% on taxable supplies, and remit monthly. Failure to register or remit attracts significant penalties.\n\n**Pay-As-You-Earn (PAYE)**\nEvery employer is legally required to deduct income tax from employee salaries each month and remit to the relevant State Internal Revenue Service. Non-compliance is one of the most common audit findings for SMEs.\n\n**Withholding Tax (WHT)**\nWHT applies to certain payments — rents, professional fees, dividends, interest — and must be deducted at source and remitted within 21 days of the month of deduction.\n\nAt Anther Consulting Limited, we help businesses stay fully compliant while minimising their lawful tax burden. Contact us today for a free initial consultation.",
+    "image": "/src/assets/service-tax.webp",
+    "author": "Anther Consulting Team",
+    "date": "2025-03-12",
+    "createdAt": "2025-03-12T08:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "slug": "why-every-nigerian-business-needs-a-proper-bookkeeping-system",
+    "title": "Why Every Nigerian Business Needs a Proper Bookkeeping System",
+    "category": "Accounting",
+    "excerpt": "Poor bookkeeping is one of the leading causes of business failure in Nigeria. A well-maintained accounting system is not just a regulatory requirement — it is your most powerful management tool.",
+    "content": "Poor bookkeeping is one of the leading causes of business failure in Nigeria. A well-maintained accounting system is not just a regulatory requirement — it is your most powerful management tool.\n\n**What Bookkeeping Actually Is**\nBookkeeping is the systematic recording of all financial transactions of a business. It forms the foundation of your accounting system, and without it, you cannot produce reliable financial statements, make informed decisions, or satisfy regulatory requirements.\n\n**The Real Cost of Poor Records**\nBusinesses without proper books frequently face: inability to access bank loans or investor funding, tax penalties due to unsubstantiated deductions, cash flow surprises that could have been anticipated, and failure to detect fraud or employee theft early.\n\n**Choosing the Right System**\nFor most Nigerian SMEs, a cloud-based accounting software (such as QuickBooks, Sage, or a local equivalent) combined with consistent monthly reconciliation is sufficient. The key is not the tool — it is the discipline of recording every transaction promptly and accurately.\n\n**How We Help**\nAnther Consulting Limited offers bookkeeping setup, monthly bookkeeping services, and financial statement preparation for businesses across Nigeria. We tailor our approach to your industry and scale, ensuring you always have clean, audit-ready records.",
+    "image": "/src/assets/service-accounting.webp",
+    "author": "Anther Consulting Team",
+    "date": "2025-04-05",
+    "createdAt": "2025-04-05T08:00:00.000Z"
+  },
+  {
+    "id": 3,
+    "slug": "what-is-an-audit-and-does-your-business-need-one",
+    "title": "What Is an Audit — and Does Your Business Need One?",
+    "category": "Audit & Assurance",
+    "excerpt": "The word 'audit' often causes anxiety among business owners. In reality, a well-conducted audit is one of the most valuable exercises a business can undergo. Here is a plain-language guide.",
+    "content": "The word 'audit' often causes anxiety among business owners. In reality, a well-conducted audit is one of the most valuable exercises a business can undergo.\n\n**Statutory vs. Voluntary Audits**\nIn Nigeria, companies above a certain size are legally required to have their financial statements audited annually by a registered auditor. However, even companies below the threshold benefit enormously from voluntary audits, as they provide credibility to lenders, investors, and partners.\n\n**What Auditors Actually Do**\nAuditors do not look for fraud (though they may find it). Their primary role is to form an independent opinion on whether a company's financial statements give a 'true and fair view' of its financial position. This involves testing transactions, verifying balances, and assessing internal controls.\n\n**Investigation vs. Audit**\nIf fraud is suspected, a forensic investigation — not a standard audit — is the appropriate response. Anther Consulting provides both statutory audit services and forensic investigations.\n\n**Preparing for Your Audit**\nThe most common cause of delays and additional fees in an audit is poor preparation. Ensure your ledgers are reconciled, bank statements are available, and fixed asset registers are up to date before your auditors arrive.\n\nContact Anther Consulting to discuss your audit requirements — we work with businesses of all sizes across Nigeria.",
+    "image": "/src/assets/service-audit.webp",
+    "author": "Anther Consulting Team",
+    "date": "2025-05-18",
+    "createdAt": "2025-05-18T08:00:00.000Z"
+  },
+  {
+    "id": 4,
+    "slug": "how-technology-is-transforming-accounting-in-nigeria",
+    "title": "How Technology Is Transforming Accounting in Nigeria",
+    "category": "IT & Innovation",
+    "excerpt": "From cloud accounting to automated tax filing, technology is reshaping how Nigerian businesses manage their finances. Firms that embrace these tools now will have a significant competitive advantage.",
+    "content": "From cloud accounting to automated tax filing, technology is reshaping how Nigerian businesses manage their finances. Firms that embrace these tools now will have a significant competitive advantage.\n\n**Cloud Accounting**\nCloud-based platforms allow business owners and their accountants to access real-time financial data from anywhere. This is particularly valuable in Nigeria's multi-city business environment, where owners often operate across Lagos, Abuja, and Ibadan simultaneously.\n\n**Automated Payroll**\nManual payroll processing is time-consuming and error-prone. Modern payroll software automatically calculates PAYE, pension contributions, and other deductions, generates payslips, and produces the schedules required for remittance.\n\n**E-filing with FIRS**\nThe Federal Inland Revenue Service has significantly expanded its e-filing capabilities. Businesses can now file VAT returns, CIT returns, and withholding tax schedules electronically, reducing paperwork and the risk of lost submissions.\n\n**Account Automation at Anther Consulting**\nOur IT Consulting arm helps businesses select, implement, and get the most out of accounting technology. We also offer training for your finance team to ensure adoption is smooth and sustainable.\n\nReach out to Anther Consulting today to explore how account automation can save your business time and money.",
+    "image": "/src/assets/service-it.webp",
+    "author": "Anther Consulting Team",
+    "date": "2025-06-22",
+    "createdAt": "2025-06-22T08:00:00.000Z"
+  }
+]

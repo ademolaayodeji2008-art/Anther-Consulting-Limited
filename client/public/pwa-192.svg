@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <rect width="192" height="192" rx="40" fill="#1414F0"/>
+  <!-- Anther leaf mark — white on blue -->
+  <ellipse cx="66" cy="96" rx="42" ry="66" fill="white" transform="rotate(-30 66 96)" opacity="0.92"/>
+  <ellipse cx="126" cy="96" rx="42" ry="66" fill="white" transform="rotate(30 126 96)" opacity="0.82"/>
+  <ellipse cx="96" cy="60" rx="24" ry="48" fill="#1414F0" opacity="0.55" transform="rotate(-15 96 60)"/>
+</svg>

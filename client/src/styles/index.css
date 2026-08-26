@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Smooth scrolling for anchor links */
+  html {
+    scroll-behavior: smooth;
+    @apply font-body text-body;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading text-navy;
+  }
+
+  a {
+    @apply transition-colors duration-200;
+  }
+
+  /* Clip lines for blog excerpts */
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white font-body font-semibold px-6 py-3 rounded hover:opacity-90 transition-opacity duration-200 inline-block;
+  }
+
+  .btn-outline {
+    @apply border-2 border-primary text-primary font-body font-semibold px-6 py-3 rounded hover:bg-primary hover:text-white transition-colors duration-200 inline-block;
+  }
+}
