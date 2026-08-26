@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import SEO from '../components/SEO.jsx'
 import useInView from '../hooks/useInView.js'
 import { apiFetch } from '../lib/api.js'
+import { resolveBlogImage } from '../lib/blogImages.js'
 
 // ─── Skeleton card ────────────────────────────────────────────────────────────
 function SkeletonCard() {
@@ -45,7 +46,7 @@ function PostCard({ post, delay }) {
     >
       <div className="h-48 overflow-hidden bg-gray-100">
         <img
-          src={post.image}
+          src={resolveBlogImage(post.image)}
           alt={post.title}
           loading="lazy"
           decoding="async"

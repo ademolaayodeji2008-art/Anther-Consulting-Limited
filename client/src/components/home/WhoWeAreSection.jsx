@@ -41,17 +41,17 @@ export default function WhoWeAreSection() {
             </div>
           </div>
 
-          {/* Right — image */}
-          <div className="relative">
+          {/* Right — image: pb-4 pr-4 makes room for the border that sits behind */}
+          <div className="relative pb-4 pr-4">
             <img
               src={whoWeAreImg}
               alt="Anther Consulting professional reviewing documents"
               loading="lazy"
               decoding="async"
-              className="w-full h-[420px] object-cover object-center rounded-lg shadow-xl"
+              className="w-full h-[420px] object-cover object-center rounded-lg shadow-xl relative z-10"
             />
-            {/* Decorative blue accent border */}
-            <div className="absolute -bottom-4 -right-4 w-full h-full border-4 border-primary rounded-lg -z-10" />
+            {/* Decorative blue accent border — behind image, offset bottom-right */}
+            <div className="absolute bottom-0 right-0 w-full h-full border-4 border-primary rounded-lg z-0" />
           </div>
 
         </div>

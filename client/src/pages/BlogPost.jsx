@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import SEO from '../components/SEO.jsx'
 import { apiFetch } from '../lib/api.js'
+import { resolveBlogImage } from '../lib/blogImages.js'
 
 // ─── Render plain text with markdown-like **bold** and \n\n paragraphs ────────
 function RichContent({ text }) {
@@ -120,7 +121,7 @@ export default function BlogPost() {
               {/* Featured image */}
               <div className="rounded-xl overflow-hidden mb-10 shadow-sm">
                 <img
-                  src={post.image}
+                  src={resolveBlogImage(post.image)}
                   alt={post.title}
                   className="w-full h-64 md:h-80 object-cover"
                 />

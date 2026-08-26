@@ -19,14 +19,32 @@ function FadeUp({ children, delay = 0, className = '' }) {
   )
 }
 
-// ─── Sectors accordion — single item ─────────────────────────────────────────
-// TODO: Replace this placeholder content with the real list of sectors
-//       once the client supplies the complete sector list.
 const sectorItems = [
   {
     title: 'Sectors We Serve',
-    content:
-      'Detailed list of sectors coming soon. This content will be updated with the full list of industries and sectors served by Anther Consulting Limited.',
+    content: (
+      <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-2 text-sm text-body">
+        {[
+          'Government Ministries, Departments & Agencies',
+          'Manufacturing & Production',
+          'Banking & Financial Services',
+          'Oil & Gas / Energy',
+          'Real Estate & Construction',
+          'Education & Non-Governmental Organisations (NGOs)',
+          'Healthcare & Pharmaceuticals',
+          'Retail & Fast-Moving Consumer Goods (FMCG)',
+          'Technology & Telecommunications',
+          'Agriculture & Agro-processing',
+          'Hospitality & Tourism',
+          'Professional Services & Consulting',
+        ].map((sector) => (
+          <li key={sector} className="flex items-start gap-2">
+            <span className="text-primary mt-0.5 flex-shrink-0">›</span>
+            {sector}
+          </li>
+        ))}
+      </ul>
+    ),
   },
 ]
 
