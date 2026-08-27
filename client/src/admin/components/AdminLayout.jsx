@@ -6,6 +6,7 @@ const NAV = [
   { to: '/admin/blog',        label: 'Blog Posts',  icon: '✎' },
   { to: '/admin/contacts',    label: 'Contacts',    icon: '✉' },
   { to: '/admin/subscribers', label: 'Subscribers', icon: '◉' },
+  { to: '/admin/settings',    label: 'Settings',    icon: '⚙' },
 ]
 
 export default function AdminLayout({ children }) {

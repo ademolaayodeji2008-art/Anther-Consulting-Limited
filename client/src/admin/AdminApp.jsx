@@ -7,6 +7,7 @@ import AdminDashboard   from './pages/AdminDashboard.jsx'
 import AdminBlog        from './pages/AdminBlog.jsx'
 import AdminContacts    from './pages/AdminContacts.jsx'
 import AdminSubscribers from './pages/AdminSubscribers.jsx'
+import AdminSettings    from './pages/AdminSettings.jsx'
 
 export default function AdminApp() {
   return (
@@ -24,6 +25,7 @@ export default function AdminApp() {
                 <Route path="blog"           element={<AdminBlog />} />
                 <Route path="contacts"       element={<AdminContacts />} />
                 <Route path="subscribers"    element={<AdminSubscribers />} />
+                <Route path="settings"       element={<AdminSettings />} />
                 <Route path="*"              element={<Navigate to="/admin" replace />} />
               </Routes>
             </AdminLayout>
