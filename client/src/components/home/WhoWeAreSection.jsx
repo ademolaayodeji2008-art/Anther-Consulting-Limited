@@ -42,16 +42,16 @@ export default function WhoWeAreSection() {
           </div>
 
           {/* Right — image with offset blue border behind it */}
-          <div className="relative flex justify-center">
-            {/* Blue border box — offset 12px down and right, sits behind */}
-            <div className="absolute top-3 left-3 w-full h-full border-4 border-primary rounded-lg z-0" />
-            {/* Image sits on top */}
+          <div className="relative p-3">
+            {/* Blue border — offset top-left so it peeks out behind image bottom-right */}
+            <div className="absolute inset-3 border-4 border-primary rounded-lg translate-x-3 translate-y-3" />
+            {/* Image on top */}
             <img
               src={whoWeAreImg}
               alt="Anther Consulting professional reviewing documents"
               loading="lazy"
               decoding="async"
-              className="relative z-10 w-full h-[420px] object-cover object-top rounded-lg shadow-xl"
+              className="relative w-full h-[420px] object-cover object-top rounded-lg shadow-xl"
             />
           </div>
 
