@@ -8,7 +8,7 @@ export default function WhoWeAreSection() {
   return (
     <section
       ref={ref}
-      className={`py-20 bg-white overflow-hidden transition-all duration-700 ease-out ${
+      className={`py-20 bg-white transition-all duration-700 ease-out ${
         visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
       }`}
       aria-label="Who We Are"
@@ -41,20 +41,14 @@ export default function WhoWeAreSection() {
             </div>
           </div>
 
-          {/* Right — image with offset blue border behind it */}
-          <div className="relative">
-            {/* Image */}
+          {/* Right — image */}
+          <div className="rounded-lg overflow-hidden shadow-xl">
             <img
               src={whoWeAreImg}
               alt="Anther Consulting professional reviewing documents"
               loading="lazy"
               decoding="async"
-              className="relative z-10 w-full h-[420px] object-cover object-top rounded-lg shadow-xl"
-            />
-            {/* Blue border — same size as image, shifted 12px down+right, behind image */}
-            <div
-              className="absolute inset-0 border-4 border-primary rounded-lg z-0"
-              style={{ transform: 'translate(12px, 12px)' }}
+              className="w-full h-[420px] object-cover object-top"
             />
           </div>
 
