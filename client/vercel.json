@@ -3,7 +3,13 @@
     {
       "source": "/",
       "has": [{ "type": "host", "value": "admin.antherconsulting.com.ng" }],
-      "destination": "/admin",
+      "destination": "/admin/login",
+      "permanent": false
+    },
+    {
+      "source": "/((?!admin).*)",
+      "has": [{ "type": "host", "value": "admin.antherconsulting.com.ng" }],
+      "destination": "/admin/login",
       "permanent": false
     }
   ],
