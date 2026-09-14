@@ -82,7 +82,20 @@ if (process.env.NODE_ENV === 'production' && existsSync(distPath)) {
 }
 
 // ── Start ─────────────────────────────────────────────────────────────────────
-app.listen(PORT, () =>
+app.listen(PORT, () => {
   console.log(`Anther Consulting API running on http://localhost:${PORT}`)
-)
+
+  // ── Keep-alive ping (free Render tier) ─────────────────────────────────────
+  // Pings the health endpoint every 14 minutes to prevent the free instance
+  // from spinning down (Render spins down after 15 minutes of inactivity).
+  // Only runs in production so it doesn't pollute local dev logs.
+  if (process.env.NODE_ENV === 'production') {
+    const SELF_URL = process.env.RENDER_EXTERNAL_URL ?? `http://localhost:${PORT}`
+    setInterval(() => {
+      fetch(`${SELF_URL}/api/health`)
+        .then(() => console.log('[Keep-alive] ping OK'))
+        .catch((e) => console.warn('[Keep-alive] ping failed:', e.message))
+    }, 14 * 60 * 1000) // every 14 minutes
+  }
+})
 export default app
