@@ -7,13 +7,16 @@
       "permanent": false
     },
     {
-      "source": "/((?!admin).*)",
+      "source": "/((?!admin|assets|registerSW\\.js|manifest\\.webmanifest|sw\\.js|workbox|favicon|robots|sitemap|icons|pwa).*)",
       "has": [{ "type": "host", "value": "admin.antherconsulting.com.ng" }],
       "destination": "/admin/login",
       "permanent": false
     }
   ],
   "rewrites": [
-    { "source": "/((?!api/).*)", "destination": "/index.html" }
+    {
+      "source": "/((?!api/|assets/|registerSW\\.js|manifest\\.webmanifest|sw\\.js|workbox|favicon|robots\\.txt|sitemap\\.xml|icons|pwa).*)",
+      "destination": "/index.html"
+    }
   ]
 }
