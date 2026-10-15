@@ -35,14 +35,14 @@ export const partners = [
   {
     id: 2,
     name: 'Lukman Zarat Ranti',
-    role: 'Partner / Head Audit & Assurance',
+    role: 'Director / Head Audit & Assurance',
     image: lukmanZaratRanti,
     highlight: false,
   },
   {
     id: 3,
     name: 'Ajulo B. Olajide',
-    role: 'Partner / Head (I.T, Corporate Affairs & Compliance)',
+    role: 'Director / Head (I.T, Corporate Affairs & Compliance)',
     image: ajuloBOlajide,
     highlight: true,
   },
