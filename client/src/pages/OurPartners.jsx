@@ -77,6 +77,7 @@ export default function OurPartners() {
                 <TeamCard
                   name={partner.name}
                   role={partner.role}
+                  image={partner.image}
                   highlight={partner.highlight}
                 />
               </FadeUp>
