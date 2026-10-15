@@ -10,6 +10,7 @@
 // ── Team photo imports (add more as photos are provided) ─────────────────────
 import lukmanZaratRanti       from '../assets/team/lukman-zarat-ranti.jpg'
 import ademolaRasheed         from '../assets/team/ademola-rasheed-olusola.jpeg'
+import ajuloBOlajide          from '../assets/team/ajulo-b-olajide.jpeg'
 // import ajuloBOlajide       from '../assets/team/ajulo-b-olajide.jpg'
 // import odebunmiOluwatoyin  from '../assets/team/odebunmi-r-oluwatoyin.jpg'
 // import adenowoFolakemi     from '../assets/team/adenowo-folakemi.jpg'
@@ -42,7 +43,7 @@ export const partners = [
     id: 3,
     name: 'Ajulo B. Olajide',
     role: 'Partner / Head (I.T, Corporate Affairs & Compliance)',
-    // image: ajuloBOlajide,
+    image: ajuloBOlajide,
     highlight: true,
   },
   {
