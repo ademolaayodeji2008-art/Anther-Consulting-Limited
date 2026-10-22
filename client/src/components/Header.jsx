@@ -7,6 +7,7 @@ const navLinks = [
   { label: 'About Us',     to: '/about-us' },
   { label: 'Services',     to: '/services' },
   { label: 'Blog',         to: '/blog' },
+  { label: 'Tax Tools',    to: '/tax-calculators' },
   { label: 'Our Clients',  to: '/our-clients' },
   { label: 'Our Partners', to: '/partners-and-team' },
   { label: 'Contact Us',   to: '/contact-us' },

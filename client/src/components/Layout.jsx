@@ -1,5 +1,6 @@
 import Header from './Header.jsx'
 import Footer from './Footer.jsx'
+import FloatingCalcButton from './FloatingCalcButton.jsx'
 import WhatsAppButton from './WhatsAppButton.jsx'
 
 /**
@@ -14,6 +15,7 @@ export default function Layout({ children }) {
         {children}
       </main>
       <Footer />
+      <FloatingCalcButton />
       <WhatsAppButton />
     </div>
   )

@@ -3,15 +3,16 @@ import { Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout.jsx'
 import usePageTracking from './hooks/usePageTracking.js'
 
-import Home        from './pages/Home.jsx'
-import About       from './pages/About.jsx'
-import Services    from './pages/Services.jsx'
-import Blog        from './pages/Blog.jsx'
-import BlogPost    from './pages/BlogPost.jsx'
-import OurClients  from './pages/OurClients.jsx'
-import OurPartners from './pages/OurPartners.jsx'
-import Contact     from './pages/Contact.jsx'
-import NotFound    from './pages/NotFound.jsx'
+import Home           from './pages/Home.jsx'
+import About          from './pages/About.jsx'
+import Services       from './pages/Services.jsx'
+import Blog           from './pages/Blog.jsx'
+import BlogPost       from './pages/BlogPost.jsx'
+import OurClients     from './pages/OurClients.jsx'
+import OurPartners    from './pages/OurPartners.jsx'
+import Contact        from './pages/Contact.jsx'
+import TaxCalculators from './pages/TaxCalculators.jsx'
+import NotFound       from './pages/NotFound.jsx'
 
 // ── Admin: lazy-loaded in a completely separate chunk ─────────────────────────
 // This means:
@@ -55,8 +56,9 @@ function PublicSite() {
         <Route path="/blog/:slug"        element={<BlogPost />}    />
         <Route path="/our-clients"       element={<OurClients />}  />
         <Route path="/partners-and-team" element={<OurPartners />} />
-        <Route path="/contact-us"        element={<Contact />}     />
-        <Route path="*"                  element={<NotFound />}    />
+        <Route path="/contact-us"        element={<Contact />}        />
+        <Route path="/tax-calculators"   element={<TaxCalculators />} />
+        <Route path="*"                  element={<NotFound />}       />
       </Routes>
     </Layout>
   )
