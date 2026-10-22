@@ -33,9 +33,7 @@ function ResultRow({ label, value, highlight = false }) {
     <div className="flex justify-between items-center py-2 border-b border-white/20">
       <span className="font-body text-sm text-white/80">{label}</span>
       <span
-        className={`font-body text-sm font-semibold text-white${
-          highlight ? ' text-lg font-bold' : ''
-        }`}
+        className={`font-body font-semibold text-white${highlight ? ' text-lg font-bold' : ' text-sm'}`}
       >
         {value}
       </span>

@@ -16,8 +16,8 @@ function IconCalc() {
       <line x1="12" y1="14" x2="12" y2="14" strokeWidth="3" strokeLinecap="round" />
       <line x1="16" y1="14" x2="16" y2="14" strokeWidth="3" strokeLinecap="round" />
       <line x1="8"  y1="17" x2="8"  y2="17" strokeWidth="3" strokeLinecap="round" />
-      <line x1="12" y1="17" x2="12" y2="17" strokeWidth="3" strokeLinecap="round" />
       <line x1="16" y1="17" x2="16" y2="17" strokeWidth="3" strokeLinecap="round" />
+      <line x1="8" y1="18" x2="12" y2="18" />
     </svg>
   )
 }
@@ -68,7 +68,7 @@ export default function FloatingCalcButton() {
       >
         {/* Pulse rings */}
         <span className="absolute inset-0 rounded-full bg-[#1414F0] animate-ping opacity-30" />
-        <span className="absolute inset-0 rounded-full bg-[#1414F0] animate-ping opacity-20 animation-delay-300" />
+        <span className="absolute inset-0 rounded-full bg-[#1414F0] animate-ping opacity-20" style={{ animationDelay: '300ms' }} />
         <IconCalc />
       </Link>
     </div>
